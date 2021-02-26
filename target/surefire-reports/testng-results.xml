@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75280" started-at="2021-02-26T10:35:27 IST" finished-at="2021-02-26T10:36:42 IST">
+    <groups>
+    </groups>
+    <test name="App test 2" duration-ms="504" started-at="2021-02-26T10:35:27 IST" finished-at="2021-02-26T10:35:28 IST">
+      <class name="Academy.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:Academy.AppTest@78ac1102]" name="testApp" duration-ms="64" started-at="2021-02-26T10:35:27 IST" finished-at="2021-02-26T10:35:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- Academy.AppTest -->
+    </test> <!-- App test 2 -->
+    <test name="Validating nevigation" duration-ms="61166" started-at="2021-02-26T10:35:27 IST" finished-at="2021-02-26T10:36:28 IST">
+      <class name="Academy.validateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateNavigationBar@69fb6037]" name="initialize" is-config="true" duration-ms="53628" started-at="2021-02-26T10:35:27 IST" finished-at="2021-02-26T10:36:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppNavBar()[pri:0, instance:Academy.validateNavigationBar@69fb6037]" name="validateAppNavBar" duration-ms="2119" started-at="2021-02-26T10:36:21 IST" finished-at="2021-02-26T10:36:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppNavBar -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateNavigationBar@69fb6037]" name="teardown" is-config="true" duration-ms="5402" started-at="2021-02-26T10:36:23 IST" finished-at="2021-02-26T10:36:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateNavigationBar -->
+    </test> <!-- Validating nevigation -->
+    <test name="Validating title" duration-ms="69912" started-at="2021-02-26T10:35:27 IST" finished-at="2021-02-26T10:36:37 IST">
+      <class name="Academy.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateTitle@6f27a732]" name="initialize" is-config="true" duration-ms="55589" started-at="2021-02-26T10:35:27 IST" finished-at="2021-02-26T10:36:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:Academy.validateTitle@6f27a732]" name="validateAppTitle" duration-ms="380" started-at="2021-02-26T10:36:23 IST" finished-at="2021-02-26T10:36:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateTitle@6f27a732]" name="teardown" is-config="true" duration-ms="13923" started-at="2021-02-26T10:36:23 IST" finished-at="2021-02-26T10:36:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateTitle -->
+    </test> <!-- Validating title -->
+    <test name="Validating user login" duration-ms="75280" started-at="2021-02-26T10:35:27 IST" finished-at="2021-02-26T10:36:42 IST">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@4f67eb2a]" name="initialize" is-config="true" duration-ms="27857" started-at="2021-02-26T10:35:27 IST" finished-at="2021-02-26T10:35:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@4f67eb2a]" name="basePageNavigation" duration-ms="38288" started-at="2021-02-26T10:35:55 IST" data-provider="getData" finished-at="2021-02-26T10:36:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restrcited User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@4f67eb2a]" name="basePageNavigation" duration-ms="7981" started-at="2021-02-26T10:36:33 IST" data-provider="getData" finished-at="2021-02-26T10:36:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePage@4f67eb2a]" name="teardown" is-config="true" duration-ms="1119" started-at="2021-02-26T10:36:41 IST" finished-at="2021-02-26T10:36:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Validating user login -->
+  </suite> <!-- Suite -->
+</testng-results>
